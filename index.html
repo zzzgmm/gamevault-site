@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GameVault 游戏介绍站</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="GameVault 首页">
+        <span class="brand-mark">GV</span>
+        <span>GameVault</span>
+      </a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#catalog">游戏目录</a>
+        <a href="#guides">游戏攻略</a>
+        <a href="#ratings">玩家评分</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-art" aria-hidden="true">
+          <div class="console"><span></span><span></span><span></span><span></span></div>
+          <div class="hero-card hero-card-a"></div>
+          <div class="hero-card hero-card-b"></div>
+          <div class="hero-card hero-card-c"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">目录 / 攻略 / 评分</p>
+          <h1 id="hero-title">GameVault 游戏介绍站</h1>
+          <p>浏览热门游戏资料，按类型筛选目录，查看关键攻略路线，并参考玩家评分决定下一款要玩的作品。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#catalog">查看游戏</a>
+            <a class="button secondary" href="#guides">阅读攻略</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="toolbar" id="catalog" aria-label="游戏筛选工具">
+        <div>
+          <p class="section-kicker">Game Directory</p>
+          <h2>游戏目录</h2>
+        </div>
+        <div class="filters">
+          <label class="search">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="输入游戏名或关键词">
+          </label>
+          <div class="chips" role="group" aria-label="按类型筛选">
+            <button class="chip active" type="button" data-filter="all">全部</button>
+            <button class="chip" type="button" data-filter="RPG">RPG</button>
+            <button class="chip" type="button" data-filter="动作">动作</button>
+            <button class="chip" type="button" data-filter="策略">策略</button>
+            <button class="chip" type="button" data-filter="独立">独立</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="game-grid" id="gameGrid" aria-live="polite"></section>
+
+      <section class="split-section" id="guides">
+        <div class="section-heading">
+          <p class="section-kicker">Strategy Hub</p>
+          <h2>游戏攻略</h2>
+        </div>
+        <div class="guide-list" id="guideList"></div>
+      </section>
+
+      <section class="ratings" id="ratings">
+        <div class="section-heading">
+          <p class="section-kicker">Player Score</p>
+          <h2>玩家评分</h2>
+        </div>
+        <div class="rating-board" id="ratingBoard"></div>
+      </section>
+    </main>
+
+    <dialog class="game-dialog" id="gameDialog">
+      <button class="dialog-close" type="button" aria-label="关闭详情">×</button>
+      <div id="dialogContent"></div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
