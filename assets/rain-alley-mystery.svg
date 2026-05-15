@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="雨巷谜影游戏封面">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#212733"/><stop offset="1" stop-color="#1e5784"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g fill="#141922" opacity=".92">
+    <rect x="620" y="120" width="56" height="520"/><rect x="714" y="120" width="56" height="520"/><rect x="808" y="120" width="56" height="520"/><rect x="902" y="120" width="56" height="520"/><rect x="996" y="120" width="56" height="520"/>
+  </g>
+  <g fill="#f5c45f" opacity=".36"><rect x="632" y="164" width="32" height="42"/><rect x="820" y="246" width="32" height="42"/><rect x="1008" y="410" width="32" height="42"/></g>
+  <g stroke="#d0e6f2" stroke-width="2" opacity=".45"><path d="M80 0-180 750"/><path d="M180 0-80 750"/><path d="M280 0 20 750"/><path d="M380 0 120 750"/><path d="M480 0 220 750"/><path d="M580 0 320 750"/><path d="M680 0 420 750"/><path d="M780 0 520 750"/><path d="M880 0 620 750"/><path d="M980 0 720 750"/><path d="M1080 0 820 750"/></g>
+  <ellipse cx="894" cy="296" rx="142" ry="28" fill="#0c1118"/>
+  <rect x="884" y="312" width="28" height="316" fill="#0c1118"/>
+  <ellipse cx="897" cy="643" rx="94" ry="35" fill="#080a0e" opacity=".72"/>
+  <rect x="58" y="54" width="120" height="40" rx="20" fill="#ffffffe0"/>
+  <text x="78" y="82" font-family="Microsoft YaHei,Arial" font-size="23" font-weight="700" fill="#15171a">独立</text>
+  <rect x="58" y="506" width="652" height="164" rx="22" fill="#080b0fba"/>
+  <text x="88" y="598" font-family="Microsoft YaHei,Arial" font-size="76" font-weight="800" fill="#fff">雨巷谜影</text>
+  <text x="92" y="646" font-family="Microsoft YaHei,Arial" font-size="28" fill="#e3e9e5">叙事悬疑解谜</text>
+</svg>
