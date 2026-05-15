@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-label="极限漂移社游戏封面">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset="1" stop-color="#d69128"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <g stroke="#ffe296" stroke-width="8" opacity=".24"><path d="M0 125 1200 365"/><path d="M0 205 1200 445"/><path d="M0 285 1200 525"/><path d="M0 365 1200 605"/></g>
+  <path d="M610 490 760 372 1015 402 1115 508 980 580 678 572Z" fill="#1f2327"/>
+  <path d="M748 384 835 305 986 386Z" fill="#eecc58"/>
+  <circle cx="744" cy="584" r="58" fill="#080a0c"/><circle cx="1013" cy="579" r="60" fill="#080a0c"/>
+  <path d="M555 620C710 470 920 470 1130 585" fill="none" stroke="#fff" stroke-width="9" opacity=".6"/>
+  <rect x="58" y="54" width="120" height="40" rx="20" fill="#ffffffe0"/>
+  <text x="78" y="82" font-family="Microsoft YaHei,Arial" font-size="23" font-weight="700" fill="#15171a">动作</text>
+  <rect x="58" y="506" width="652" height="164" rx="22" fill="#080b0fba"/>
+  <text x="88" y="598" font-family="Microsoft YaHei,Arial" font-size="76" font-weight="800" fill="#fff">极限漂移社</text>
+  <text x="92" y="646" font-family="Microsoft YaHei,Arial" font-size="28" fill="#e3e9e5">街机赛车调校</text>
+</svg>
